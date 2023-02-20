@@ -195,7 +195,8 @@ cdef class Splitter:
             self.samples,
             start,
             end, 
-            self.neighborhood_order_matrix
+            self.neighborhood_order_matrix, 
+            self.log_base
             #self.neighborhood_order_matrix=None # change here
         )
 
